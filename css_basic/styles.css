@@ -1,0 +1,32 @@
+/* Make body a flex container in column direction */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* ensures full viewport height */
+  margin: 0; /* remove default margin */
+}
+
+/* Make main a flex container in row direction */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* allows it to grow and shrink as needed */
+}
+
+/* Set article to take 2/3 of horizontal space */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* Set aside to take 1/3 of horizontal space */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Optional: for clarity */
+header, footer {
+  padding: 1rem;
+  background-color: #eee;
+}
