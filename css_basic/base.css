@@ -190,7 +190,10 @@ h6 {
   }
   body.works_on_smartphone main {
   	display: block;
-  }
+  flex-direction: column;
+}
+
+  
   header .right {
   	float: none;
   }
