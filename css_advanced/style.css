@@ -90,6 +90,48 @@ header {
   border-radius: 50%;
   object-fit: cover;
 }
+.quote-section {
+  background-color: #C271FF;
+  padding: 60px 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.quote-container img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+blockquote footer {
+  margin-top: 20px;
+}
+
+blockquote strong {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+blockquote span {
+  font-size: 14px;
+  opacity: 0.9;
+}
 
 
 
